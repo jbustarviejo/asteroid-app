@@ -1,0 +1,38 @@
+.loading-background{
+  background-color: rgb(154, 154, 154);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 0.9;
+}
+
+.loading-text{
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.loading-subtext{
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.save-as-favourite{
+  margin-top: 20px;
+  font-weight: bold;
+  z-index:2;
+}
+
+.save-as-favourite:hover{
+  opacity: 0.6;
+}

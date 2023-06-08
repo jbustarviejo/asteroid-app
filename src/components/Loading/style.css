@@ -1,0 +1,63 @@
+.asteroid-container{
+  background: rgb(2,0,36);
+  background: linear-gradient(27deg, rgba(2,0,36,1) 18%, rgba(165,229,250,1) 69%, rgba(255,255,255,1) 86%);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  text-shadow: 0 0 10px black;
+  cursor: pointer;
+}
+
+.asteroid-container-title{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.asteroid-container-explanation{
+  border: none;
+  background: none;
+  color: white;
+  margin-bottom: 0px;
+  font-size: 10px;
+}
+
+.information-head{
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.information-line{
+  font-size: 15px;
+  margin-left: 5px;
+  margin-top: 0px;
+}
+
+.search-box{
+  margin-left: 15px;
+}
+
+.search-box-instructions{
+  font-size: 15px;
+}
+
+.search-box-input-label{
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 10px;
+}
+
+.search-box-button{
+  margin-left: 10px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(2,0,36);
+  color: white;
+  padding: 3px 10px;
+  cursor: pointer;
+}
+
+.error{
+  color:red;
+}

@@ -1,26 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import AsteroidList from './screens/AsteroidList';
+import Favourites from './screens/Favourites';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div>
+        <nav className="nav-options-container">
+          <Link to="/" className="nav-options-element">Asteroid List</Link>
+          <Link to="/favourites" className="nav-options-element">Favourites</Link>
+        </nav>
+
+        <Routes>
+          <Route path="/" element={<AsteroidList/>} />
+          <Route path="/favourites" element={<Favourites/>} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;

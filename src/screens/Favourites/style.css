@@ -1,0 +1,15 @@
+.asteroid-list{
+  padding: 0;
+}
+
+.main-title{
+  background: -webkit-linear-gradient(rgba(2,0,36,1), #ADE7FA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 10px;
+}
+
+.no-data{
+  padding-left: 10px;
+  color: #333;
+}
